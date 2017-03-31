@@ -15,5 +15,8 @@
       <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
           <string>SafeSite requires photo library access to store photos you take.</string>
       </config-file>
+      <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
+          <string>SafeSite uses Bluetooth to track beacons on a project.</string>
+      </config-file>        
     </platform>
 </plugin>
